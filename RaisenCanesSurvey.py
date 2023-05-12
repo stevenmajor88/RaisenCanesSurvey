@@ -307,7 +307,7 @@ text_area.send_keys("stevenmajor88@yahoo.com")
 
 text_area = driver.find_element(
     By.ID, "Questions[0].CustomFields[6].Response")
-text_area.send_keys("469-267-0310")
+text_area.send_keys("4692670310")
 
 click_next_button(driver)
 
