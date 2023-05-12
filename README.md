@@ -13,33 +13,30 @@ Python 3.x
 Git
 
 Installation
-Clone the repository to your local machine using the following command:
+1. Clone the repository to your local machine using the following command:
 
 git clone https://github.com/<username>/<repository-name>.git
 
-Extract the downloaded zip file.
+2. Extract the downloaded zip file.
 
-Open a file called "User_PPI" using your favorite IDE. Enter your PPI and lottery number and save the file.
+3. Open a file called "User_PPI" using your favorite IDE. Enter your PPI and lottery number and save the file.
 
-Run the program.
+4. Run the program.
 
 Usage
-To use this project, follow these steps:
+1. To use this project, follow these steps:
 
-Open a file called "User_PPI" using your favorite IDE. Enter your PPI and lottery number and save the file.
+2. Open a file called "User_PPI" using your favorite IDE. Enter your PPI and lottery number and save the file.
 
-Run the program to get the results.
+3. Run the program to get the results.
 
 Contributing
 Contributions are always welcome. If you would like to contribute to the project, please follow these steps:
 
-Fork the repository.
+1. Fork the repository.
 
-Make your changes.
+2. Make your changes.
 
-Test your changes.
+3. Test your changes.
 
-Submit a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+4. Submit a pull request.
