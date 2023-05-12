@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 from RaisenCanesFn import click_next_button
+from User_PPI import entry_code, user_name, user_address, user_city, user_state, user_zip, user_email, user_phone
 
 # Create a new instance of the Chrome driver
 driver = webdriver.Chrome()
@@ -16,7 +17,7 @@ english_button.click()
 
 # Enter a number in the first text box
 entry_code_1 = driver.find_element(By.ID, "EntryCode1")
-entry_code_1.send_keys("902200130015820063")
+entry_code_1.send_keys(entry_code)
 
 # Click the "Start" button
 start_button = driver.find_element(
@@ -283,33 +284,33 @@ click_next_button(driver)
 
 text_area = driver.find_element(
     By.ID, "Questions[0].CustomFields[0].Response")
-text_area.send_keys("Steven Nguyen")
+text_area.send_keys(user_name)
 
 text_area = driver.find_element(
     By.ID, "Questions[0].CustomFields[1].Response")
-text_area.send_keys("2913 Green Meadow Drive")
+text_area.send_keys(user_address)
 
 text_area = driver.find_element(
     By.ID, "Questions[0].CustomFields[2].Response")
-text_area.send_keys("Garland")
+text_area.send_keys(user_city)
 
 text_area = driver.find_element(
     By.ID, "Questions[0].CustomFields[3].Response")
-text_area.send_keys("Texas")
+text_area.send_keys(user_state)
 
 text_area = driver.find_element(
     By.ID, "Questions[0].CustomFields[4].Response")
-text_area.send_keys("75044")
+text_area.send_keys(user_zip)
 
 text_area = driver.find_element(
     By.ID, "Questions[0].CustomFields[5].Response")
-text_area.send_keys("stevenmajor88@yahoo.com")
+text_area.send_keys(user_email)
 
 text_area = driver.find_element(
     By.ID, "Questions[0].CustomFields[6].Response")
-text_area.send_keys("4692670310")
+text_area.send_keys(user_phone)
 
-click_next_button(driver)
+# click_next_button(driver)
 
 # Wait for the user to press Enter before closing the window
 input("Press Enter to close the window...")
